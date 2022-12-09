@@ -1,13 +1,13 @@
 header {display: flex; flex-wrap: wrap; background-color:  lightgray; 
-    justify-content: space-between; border: solid; border-color: black; border-width: 3px;}
+    justify-content: space-between; /*border: solid; border-color: black; border-width: 3px;*/}
 
-h1 {display: inline-block; margin-left: 0; border: solid; border-color: blue; border-width: 3px;}
+h1 {display: inline-block; margin-left: 0; /*border: solid; border-color: blue; border-width: 3px;*/ padding: 1%;}
 
-nav {display: flex; justify-content: space-around; border: solid; border-color: red; border-width: 3px }
+nav { /*border: solid; border-color: red; border-width: 3px;*/ padding-top: 40px; padding-right: 25px; padding-left: 25px; min-width: 35%;}
 
-ul {list-style-type: none;}
+ul {list-style-type: none; display: flex; flex-wrap: wrap; justify-content: space-evenly; margin: 0; }
 
-li {display: inline-block;}
+li {display: inline-block; padding: 5%; text-decoration: underline;}
 
 body {background-color: #fff}
 
@@ -22,3 +22,21 @@ banner {display: flex;
     background-size: cover;
     background-position: center;
 }
+
+.about-me {display: flex; flex-wrap: wrap; background-color:  #fff; 
+    justify-content: center; /*border: solid; border-right-color: black; border-right-width: 3px;*/}
+
+.heading {display: inline-block; margin-left: 0; border-right: solid; border-right-color: blue; border-width: 3px; padding: 1%;}    
+
+.bio { /*border: solid; border-color: red; border-width: 3px;*/ padding-top: 40px; padding-right: 25px; padding-left: 25px; width: 75%;}
+/*.contact-list {float: right; }*/
+
+.work {display: flex; flex-wrap: wrap; background-color:  #fff; 
+    justify-content: center; /*border: solid; border-right-color: black; border-right-width: 3px;*/}
+
+.port { /*border: solid; border-color: red; border-width: 3px;*/ padding-top: 40px; padding-right: 25px; padding-left: 25px; width: 75%;}
+    /*.contact-list {float: right; }*/
+
+
+footer {display: flex; flex-wrap: wrap; background-color:  lightgray; 
+    justify-content: space-between; /*border: solid; border-color: black; border-width: 3px;*/}

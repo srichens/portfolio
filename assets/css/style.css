@@ -26,7 +26,7 @@ banner {display: flex;
 .about-me {display: flex; flex-wrap: wrap; background-color:  #fff; 
     justify-content: center; /*border: solid; border-right-color: black; border-right-width: 3px;*/}
 
-.heading {display: inline-block; margin-left: 0; border-right: solid; border-right-color: blue; border-width: 3px; padding: 1%;}    
+.heading {display: inline-block; margin-left: 0; border-right: solid; border-right-color: grey; border-width: 3px; padding: 1%;}    
 
 .bio { /*border: solid; border-color: red; border-width: 3px;*/ padding-top: 40px; padding-right: 25px; padding-left: 25px; width: 75%;}
 /*.contact-list {float: right; }*/

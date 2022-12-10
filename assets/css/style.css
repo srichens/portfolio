@@ -18,10 +18,12 @@ banner {display: flex;
     height: 200px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url(/portfolio/assets/pexels-artem-podrez-7233099.jpg);
+    background-image: url(/portfolio/assets/images/pexels-artem-podrez-7233099.jpg);
     background-size: cover;
     background-position: center;
 }
+
+img {width: 40%;}
 
 .about-me {display: flex; flex-wrap: wrap; background-color:  #fff; 
     justify-content: center; /*border: solid; border-right-color: black; border-right-width: 3px;*/}

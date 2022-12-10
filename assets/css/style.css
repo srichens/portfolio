@@ -6,7 +6,7 @@ h1 {display: inline-block; margin-left: 0; border: solid; border-color: #fff; bo
 
 nav { /*border: solid; border-color: red; border-width: 3px;*/ padding-top: 40px; padding-right: 25px; padding-left: 25px; min-width: 35%;}
 
-ul {list-style-type: none; display: flex; flex-wrap: wrap; justify-content: space-evenly; margin: 0; }
+ul .nav {list-style-type: none; display: flex; flex-wrap: wrap; justify-content: space-evenly; margin: 0; }
 
 li {display: inline-block; padding: 5%; text-decoration: underline;}
 
@@ -31,17 +31,29 @@ img {width: 40%;}
 .about-me {display: flex; flex-wrap: wrap; background-color:  #fff; 
     justify-content: center; /*border: solid; border-right-color: black; border-right-width: 3px;*/}
 
-.heading {display: inline-block; margin-left: 0; border-right: solid; border-right-color: grey; border-width: 3px; padding: 1%;}    
+.heading {display: inline-flex; margin-left: 0; margin-right: 2px; border-right: solid; border-right-color: grey; border-width: 3px; padding: 1%; width: 15%;}    
 
-.bio { /*border: solid; border-color: red; border-width: 3px;*/ padding-top: 40px; padding-right: 25px; padding-left: 25px; width: 75%;}
+.bio { /*border: solid; border-color: red; border-width: 3px;*/ display: flex; padding-top: 40px; padding-right: 25px; padding-left: 25px; width: 75%;}
 /*.contact-list {float: right; }*/
+
+.bio-para {display: inline-flexbox;}
 
 .work {display: flex; flex-wrap: wrap; background-color:  #fff; 
     justify-content: center; /*border: solid; border-right-color: black; border-right-width: 3px;*/}
 
-.port { /*border: solid; border-color: red; border-width: 3px;*/ padding-top: 40px; padding-right: 25px; padding-left: 25px; width: 75%;}
+.contact {display: flex; background-color:  #fff; 
+        justify-content: center; /*border: solid; border-right-color: black; border-right-width: 3px;*/}
+
+.port { /*border: solid; border-color: red; border-width: 3px;*/ display: flex; flex-wrap: wrap; padding-top: 40px; padding-right: 25px; padding-left: 25px; width: 75%;}
     /*.contact-list {float: right; }*/
 
+.contact-list {display: flex; flex-wrap: wrap; padding-top: 40px; padding-right: 25px; padding-left: 25px; width: 75%;}
 
-footer {display: flex; flex-wrap: wrap; background-color:  lightgray; 
-    justify-content: space-between; /*border: solid; border-color: black; border-width: 3px;*/}
+
+
+ul .contact-items {list-style-type: none; display: flex; flex-wrap: wrap; justify-content: space-evenly; margin: 0; }
+
+.contact-items li {display: inline-block; padding: 5%; text-decoration: underline; justify-items: right;}
+
+/*footer {display: flex; flex-wrap: wrap; background-color:  lightgray; 
+    justify-content: space-between; /*border: solid; border-color: black; border-width: 3px;*/

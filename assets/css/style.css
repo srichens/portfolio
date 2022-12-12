@@ -1,12 +1,12 @@
 header {display: flex; flex-wrap: wrap; background-color:  lightgray; 
     justify-content: space-between; border-bottom: solid; border-bottom-color: rgba(255, 92, 80, 0.912); border-bottom-width: 3px;}
 
-h1 {display: inline-block; margin-left: 0; border: solid; border-color: #fff; border-width: 3px; 
+h1 {display: flex; margin-left: 0; border: solid; border-color: #fff; border-width: 3px; 
     padding: 1%; font-family: cursive; font-size: 40px; color: #fff; background-color: grey; }
 
 nav { /*border: solid; border-color: red; border-width: 3px;*/ padding-top: 40px; padding-right: 25px; padding-left: 25px; min-width: 35%;}
 
-ul .nav {list-style-type: none; display: flex; flex-wrap: wrap; justify-content: space-evenly; margin: 0; }
+ul {list-style-type: none; display: flex; flex-wrap: wrap; justify-content: space-evenly; margin: 0; }
 
 li {display: inline-block; padding: 5%; text-decoration: underline;}
 
@@ -24,14 +24,16 @@ banner {display: flex;
     background-position: center;
 }
 
-img {width: 40%;}
+img {width: 100%;}
 
-.sarah-pic {width: 25%;}
+.sarah-pic {width: 50%; } 
+
+/*#sarah-pic {width: 25%; }*/ 
 
 .about-me {display: flex; flex-wrap: wrap; background-color:  #fff; 
-    justify-content: center; /*border: solid; border-right-color: black; border-right-width: 3px;*/}
+    justify-content: center; border: solid; border-color: white; border-width: 15px;}
 
-.heading {display: inline-flex; margin-left: 0; margin-right: 2px; border-right: solid; border-right-color: grey; border-width: 3px; padding: 1%; width: 15%;}    
+.heading {display: inline-flex; margin-right: 2px; border-right: solid; border-right-color: grey; border-width: 3px; padding-right: 1%; width: 15%; justify-content: right; padding-top: 5%;}    
 
 .bio { /*border: solid; border-color: red; border-width: 3px;*/ display: flex; padding-top: 40px; padding-right: 25px; padding-left: 25px; width: 75%;}
 /*.contact-list {float: right; }*/
@@ -39,19 +41,19 @@ img {width: 40%;}
 .bio-para {display: inline-flexbox;}
 
 .work {display: flex; flex-wrap: wrap; background-color:  #fff; 
-    justify-content: center; /*border: solid; border-right-color: black; border-right-width: 3px;*/}
+    justify-content: center; border: solid; border-color: white; border-width: 15px;}
 
 .contact {display: flex; background-color:  #fff; 
-        justify-content: center; /*border: solid; border-right-color: black; border-right-width: 3px;*/}
+        justify-content: center; border: solid; border-color: white; border-width: 15px;}
 
-.port { /*border: solid; border-color: red; border-width: 3px;*/ display: flex; flex-wrap: wrap; padding-top: 40px; padding-right: 25px; padding-left: 25px; width: 75%;}
+.port { /*border: solid; border-color: red; border-width: 3px;*/ display: flex; flex-wrap: wrap; padding-right: 25px; padding-left: 25px; width: 75%; justify-content: center;}
     /*.contact-list {float: right; }*/
 
-.contact-list {display: flex; flex-wrap: wrap; padding-top: 40px; padding-right: 25px; padding-left: 25px; width: 75%;}
+.contact-list {display: inline-block; flex-wrap: wrap; padding-top: 40px; padding-right: 25px; padding-left: 25px; width: 75%; justify-content: right;}
 
+.port-img {padding: 10px; width: 50%; flex: 0 0 500px; border: solid; border-width: 2px; border-color: lightgrey; margin: 10px; }
 
-
-ul .contact-items {list-style-type: none; display: flex; flex-wrap: wrap; justify-content: space-evenly; margin: 0; }
+/*ul .contact-items {list-style-type: none; display: flex; flex-wrap: wrap; justify-content: space-evenly; margin: 0; }*/
 
 .contact-items li {display: inline-block; padding: 5%; text-decoration: underline; justify-items: right;}
 

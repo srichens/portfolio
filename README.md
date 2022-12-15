@@ -9,3 +9,4 @@ Bootcamp Week 2 Challenge
 5. Give work sample images links that go to the applications when clicked.
 6. Make the layout responsive to different sized media screens.
 
+![Screenshot 2022-12-15 at 3 59 22 PM](https://user-images.githubusercontent.com/117301473/207979969-7b054b90-bd3a-48ca-b75f-d0dbb810bcee.png)
